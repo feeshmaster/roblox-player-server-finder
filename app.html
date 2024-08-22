@@ -1,5 +1,25 @@
-<html>
-  <body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
     <script src="scripts/page-check.js" defer></script>
-  </body>
+    <link rel="stylesheet" href="app-style.css">
+</head>
+<body>
+    <h1 id="default">you are not currently in roblox!</h1>
+    <div id="app" style="display:none;">
+       <h1 class="title">Search for a player...</h1>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    game-id: <br>
+    <input id="game-id" placeholder="game id">
+    <br><br>
+    players name/id: <br>
+    <input id="player-id" placeholder="player name or id">
+</body>
 </html>
