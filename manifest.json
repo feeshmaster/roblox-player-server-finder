@@ -12,5 +12,6 @@
     "32": "resources/icon-32.png",
     "48": "resources/icon-48.png",
     "128": "resources/icon-128.png"
-   }
+   },
+   "permissions": ["activeTab"]
   }
