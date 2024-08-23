@@ -8,18 +8,23 @@
     <link rel="stylesheet" href="app-style.css">
 </head>
 <body>
-    <h1 id="default">you are not currently in roblox!</h1>
+    <h1 id="default">You are not currently in Roblox!</h1>
     <div id="app" style="display:none;">
-       <h1 class="title">Search for a player...</h1>
-    </div>
+       <h1 class="title"><b>Search for a Server...</b></h1>
+    <br>
+       <div id="input-container">
+          <h1 class="centered">Game ID</h1>
+          <input id="game-id" placeholder="Game ID">
+          <h1 class="centered">Player Name or ID</h1>
+          <input id="player-id" placeholder="Player Name or ID">
+       </div>
+       <div id="player-container">
 
-    <br>
-    <br>
-    <br>
-    game-id: <br>
-    <input id="game-id" placeholder="game id">
-    <br><br>
-    players name/id: <br>
-    <input id="player-id" placeholder="player name or id">
+       </div>
+       <div id="buttons-container">
+           <button><b>Search</b></button>
+           <button class="inactive"><b>Join</b></button>
+       </div>
+    </div>
 </body>
 </html>
